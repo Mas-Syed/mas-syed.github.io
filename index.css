@@ -1,0 +1,37 @@
+h1{
+
+    text-align: center;
+    font-size: 48px;
+    margin: 10px;
+}
+
+p{
+    font-size: 30px;
+    margin: 20px;
+    font-family: sans-serif;    
+    width: 1800px;
+}
+
+#about-me , #certifications{
+    color: chocolate;
+    font-size: 42px;
+    padding: 20px;
+}
+
+li{
+    margin: 20px;
+    font-size: 30px;
+}
+
+@media(min-width: 600px) {
+    body{
+        background-color: white
+    }
+}
+
+@media(max-width:599px)
+{
+    body{
+        background-color: white;
+    }
+}
